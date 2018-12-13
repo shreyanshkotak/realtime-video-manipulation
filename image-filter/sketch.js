@@ -28,50 +28,10 @@ function applyFilter() {
 }
 
 function draw() {
-	image(vid, 0, 0, 800, 600); // render video 
+  image(vid, 0, 0, 800, 600); // render video 
+
+  // new instance of a filter 
+  var filter = new ImageFilter(); 
+  filter.addFilter(selected);
   
-  // apply filter based on choice
-  switch(selected) {
-    case '-1': break;
-    case '0': clarendon();; break;
-    case '1': gingham();  break;
-    case '2': moon(); break;
-    case '3': lark(); break;
-    case '4': reyes(); break;
-    case '5': juno(); break;
-    case '6': slumber(); break;
-    case '7': crema(); break;
-    case '8': ludwig(); break;
-    case '9': aden(); break;
-    case '10': perpetua(); break;
-    case '11': amaro(); break;
-    case '12': mayfair(); break;
-    case '13': rise(); break;
-    case '14': hudson(); break;
-    case '15': valencia(); break;
-    case '16': xpro2(); break;
-    case '17': sierra(); break;
-    case '18': willow(); break;
-    case '19': lofi(); break;
-    case '20': inkwell(); break;
-    case '21': hefe(); break;
-    case '22': nashville(); break;
-    case '23': stinson(); break;
-    case '24': vesper(); break;
-    case '25': earlybird(); break;
-    case '26': brannan(); break;
-    case '27': sturo(); break;
-    case '28': toaster(); break;
-    case '29': walden(); break;
-    case '30': f1977(); break;
-    case '31': kelvin(); break;
-    case '32': maven(); break;
-    case '33': ginza(); break;
-    case '34': skyline(); break;
-    case '35': dogpatch(); break;
-    case '36': brooklyn(); break;
-    case '37': helena(); break;
-    case '38': ashby(); break;
-    case '39': charmes(); break;
-  }	
-}
+}	

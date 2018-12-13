@@ -247,5 +247,54 @@ function charmes() {
 	contrast(0.05);
 }
 
+// Filter class
+function ImageFilter() {
+	this.addFilter = function(choice) {
+	  switch(choice) {
+		case '-1': break;
+		case '0': clarendon(); console.log("Clarendon Applied!"); break;
+		case '1': gingham(); console.log("Gingham Applied!"); break;
+		case '2': moon(); console.log("Moon Applied!"); break;
+		case '3': lark(); console.log("Lark Applied!"); break;
+		case '4': reyes(); console.log("Reyes Applied!"); break;
+		case '5': juno(); console.log("Juno Applied!"); break;
+		case '6': slumber(); console.log("Slumber Applied!"); break;
+		case '7': crema(); console.log("Crema Applied!"); break;
+		case '8': ludwig(); console.log("Ludwig Applied!"); break;
+		case '9': aden(); console.log("Aden Applied!"); break;
+		case '10': perpetua(); console.log("Perpetua Applied!"); break;
+		case '11': amaro(); console.log("Amaro Applied!"); break;
+		case '12': mayfair(); console.log("Mayfair Applied!"); break;
+		case '13': rise(); console.log("Rise Applied!"); break;
+		case '14': hudson(); console.log("Hudson Applied!"); break;
+		case '15': valencia(); console.log("Valencia Applied!"); break;
+		case '16': xpro2(); console.log("X-Pro II Applied!"); break;
+		case '17': sierra(); console.log("Sierra Applied!"); break;
+		case '18': willow(); console.log("Willow Applied!"); break;
+		case '19': lofi(); console.log("Lo-Fi Applied!"); break;
+		case '20': inkwell(); console.log("Inkwell Applied!"); break;
+		case '21': hefe(); console.log("Hefe Applied!"); break;
+		case '22': nashville(); console.log("Nashville Applied!"); break;
+		case '23': stinson(); console.log("Stinson Applied!"); break;
+		case '24': vesper(); console.log("Vesper Applied!"); break;
+		case '25': earlybird(); console.log("Earlybird Applied!"); break;
+		case '26': brannan(); console.log("Brannan Applied!"); break;
+		case '27': sturo(); console.log("Sturo Applied!"); break;
+		case '28': toaster(); console.log("Toaster Applied!"); break;
+		case '29': walden(); console.log("Walden Applied!"); break;
+		case '30': f1977(); console.log("1977 Applied!"); break;
+		case '31': kelvin(); console.log("Kelvin Applied!"); break;
+		case '32': maven(); console.log("Maven Applied!"); break;
+		case '33': ginza(); console.log("Ginza Applied!"); break;
+		case '34': skyline(); console.log("Skyline Applied!"); break;
+		case '35': dogpatch(); console.log("Dogpatch Applied!"); break;
+		case '36': brooklyn(); console.log("Brooklyn Applied!"); break;
+		case '37': helena(); console.log("Helena Applied!"); break;
+		case '38': ashby(); console.log("Ashby Applied!"); break;
+		case '39': charmes(); console.log("Charmes Applied!"); break;
+	}
+  }
+} 
+
 // Details about instagram filters - http://lucillezimmerman.com/2017/01/07/instagramfilter/
 // Reference https://github.com/girliemac/filterous-2/blob/master/lib/instaFilters.js
